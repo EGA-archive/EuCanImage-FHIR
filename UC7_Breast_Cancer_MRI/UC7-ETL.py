@@ -139,12 +139,12 @@ menop_code = {"system":"http://snomed.info/sct","code":"161712005","display":"Me
 menop_dict = {0:{"system":"http://snomed.info/sct","code":"289904000","display":"Menopause absent (finding)"},
               1:{"system":"http://snomed.info/sct","code":"289903006","display":"Menopause present (finding)"}}
 n_preg_code = {"system":"http://snomed.info/sct","code":"161732006","display":"Gravida (observable entity)"}
-lactation_code = {"system":"http://snomed.info/sct","code":"169741004","display":"Breast fed (finding)"}
+lactation_code = {"system":"http://snomed.info/sct","code":"413712001","display":"Breastfeeding (mother)"}
 famhisto_b_code = {"system":"http://snomed.info/sct","code":"416471007:64572001=372064008","display":"Family history of clinical finding where Disease = Malignant neoplasm of female breast"}
 famhisto_o_code = {"system":"http://snomed.info/sct","code":"416471007:64572001=363443007","display":"Family history of clinical finding where Disease = Malignant tumour of ovary"}
 famhisto_dict = {0:{"system":"http://snomed.info/sct","code":"260413007","display":"None (qualifier value)"},
-                 1:{"system":"http://snomed.info/sct","code":"264500008","display":"First degree (qualifier value)"},
-                 2:{"system":"http://snomed.info/sct","code":"263868004","display":"Second degree (qualifier value)"},
+                 1:{"system":"http://snomed.info/sct","code":"125678001","display":"First degree blood relative"},
+                 2:{"system":"http://snomed.info/sct","code":"699110007","display":"Second degree blood relative"},
                  3:{"system":"http://snomed.info/sct","code":"261665006","display":"Unknown"}}
 hormtherapy_code = {"system":"http://snomed.info/sct","code":"266717002","display":"Hormone replacement therapy (procedure)"}
 tnm_ypt_code = {"system":"http://snomed.info/sct","code":"1222595002","display":"American Joint Committee on Cancer ypT category allowable value (qualifier value)"}

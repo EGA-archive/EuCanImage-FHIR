@@ -81,14 +81,14 @@ menop_code = {"system":"http://snomed.info/sct","code":"161712005","display":"Me
 menop_dict = {0:{"system":"http://snomed.info/sct","code":"289904000","display":"Menopause absent (finding)"},
               1:{"system":"http://snomed.info/sct","code":"289903006","display":"Menopause present (finding)"}}
 n_preg_code = {"system":"http://snomed.info/sct","code":"161732006","display":"Gravida (observable entity)"}
-lactation_code = {"system":"http://snomed.info/sct","code":"169741004","display":"Breast fed (finding)"}
+lactation_code = {"system":"http://snomed.info/sct","code":"413712001","display":"Breastfeeding (mother)"}
 symptoms_code = {"system":"http://snomed.info/sct","code":"198116001","display":"Breast signs and symptoms (finding)"}
 screening_code = {"system":"http://snomed.info/sct","code":"609223006","display":"Magnetic resonance imaging of breast for screening for malignant neoplasm (procedure)"}
 famhisto_b_code = {"system":"http://snomed.info/sct","code":"416471007:64572001=372064008","display":"Family history of clinical finding where Disease = Malignant neoplasm of female breast"}
 famhisto_o_code = {"system":"http://snomed.info/sct","code":"416471007:64572001=363443007","display":"Family history of clinical finding where Disease = Malignant tumour of ovary"}
 famhisto_dict = {0:{"system":"http://snomed.info/sct","code":"260413007","display":"None (qualifier value)"},
-                 1:{"system":"http://snomed.info/sct","code":"264500008","display":"First degree (qualifier value)"},
-                 2:{"system":"http://snomed.info/sct","code":"263868004","display":"Second degree (qualifier value)"},
+                 1:{"system":"http://snomed.info/sct","code":"125678001","display":"First degree blood relative"},
+                 2:{"system":"http://snomed.info/sct","code":"699110007","display":"Second degree blood relative"},
                  3:{"system":"http://snomed.info/sct","code":"261665006","display":"Unknown"}}
 laterality_dict = {0:{"system":"http://snomed.info/sct","code":"80248007","display":"Left breast structure (body structure)"},
                    1:{"system":"http://snomed.info/sct","code":"73056007","display":"Right breast structure (body structure)"}}
