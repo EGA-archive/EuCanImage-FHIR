@@ -1,0 +1,728 @@
+{
+    "resourceType": "Bundle",
+    "id": "UC45-bundle-test-3",
+    "type": "collection",
+    "entry": [
+        {
+            "fullUrl": "urn:uuid:556cd919-5615-5b9b-bc94-e1a740081aa3",
+            "resource": {
+                "resourceType": "Patient",
+                "identifier": [
+                    {
+                        "use": "secondary",
+                        "value": "UC45_3"
+                    }
+                ]
+            }
+        },
+        {
+            "fullUrl": "urn:uuid:f2a572d6-f342-5063-8b67-8e8689d72255",
+            "resource": {
+                "resourceType": "Observation",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "76689-9",
+                            "display": "Sex assigned at birth"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "urn:uuid:556cd919-5615-5b9b-bc94-e1a740081aa3"
+                },
+                "valueCodeableConcept": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "LA2-8",
+                            "display": "Male"
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "fullUrl": "urn:uuid:92ba2d69-b12c-5f56-b4d7-7c222be7fae0",
+            "resource": {
+                "resourceType": "Condition",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "93984006",
+                            "display": "Primary malignant neoplasm of rectum (disorder)"
+                        }
+                    ]
+                },
+                "bodySite": [
+                    {
+                        "coding": [
+                            {
+                                "system": "http://snomed.info/sct",
+                                "code": "34402009",
+                                "display": "Rectum structure (body structure)"
+                            }
+                        ]
+                    }
+                ],
+                "subject": {
+                    "reference": "urn:uuid:556cd919-5615-5b9b-bc94-e1a740081aa3"
+                },
+                "onsetAge": {
+                    "value": 67,
+                    "unit": "years",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "a"
+                }
+            }
+        },
+        {
+            "fullUrl": "urn:uuid:490b682f-a6d4-5cc6-ac18-aebf768b51d7",
+            "resource": {
+                "resourceType": "Condition",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/icd-o-3",
+                            "code": "8140/3",
+                            "display": "Adenocarcinoma NOS"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "urn:uuid:556cd919-5615-5b9b-bc94-e1a740081aa3"
+                },
+                "note": [
+                    {
+                        "text": "Histopathological type"
+                    }
+                ]
+            }
+        },
+        {
+            "fullUrl": "urn:uuid:7e173ade-d8de-5129-8160-361b59bd1917",
+            "resource": {
+                "resourceType": "Condition",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/icd-o-3",
+                            "code": "8246/3",
+                            "display": "Neuroendocrine Carcinoma, NOS"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "urn:uuid:556cd919-5615-5b9b-bc94-e1a740081aa3"
+                },
+                "note": [
+                    {
+                        "text": "Additional histopathological type"
+                    }
+                ]
+            }
+        },
+        {
+            "fullUrl": "urn:uuid:b20c46b0-16bb-5bb3-b351-ebcbefbf95ec",
+            "resource": {
+                "resourceType": "Condition",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "1220561009",
+                            "display": "Not recorded (qualifier value)"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "urn:uuid:556cd919-5615-5b9b-bc94-e1a740081aa3"
+                },
+                "note": [
+                    {
+                        "text": "Second additional Histopathological type"
+                    }
+                ]
+            }
+        },
+        {
+            "fullUrl": "urn:uuid:890f1739-d5f3-54b2-8815-8c7621ec2c4d",
+            "resource": {
+                "resourceType": "Observation",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "1222585009",
+                            "display": "American Joint Committee on Cancer clinical T category allowable value (qualifier value)"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "urn:uuid:556cd919-5615-5b9b-bc94-e1a740081aa3"
+                },
+                "valueCodeableConcept": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "1228882005",
+                            "display": "cT0"
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "fullUrl": "urn:uuid:baa2f770-1544-5560-9d4d-5552f30b4525",
+            "resource": {
+                "resourceType": "Observation",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "1222589003",
+                            "display": "American Joint Committee on Cancer pathological T category allowable value (qualifier value)"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "urn:uuid:556cd919-5615-5b9b-bc94-e1a740081aa3"
+                },
+                "valueCodeableConcept": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "1228951007",
+                            "display": "pT0"
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "fullUrl": "urn:uuid:a44dc01a-978d-5be9-b94f-2d12d8b96eb3",
+            "resource": {
+                "resourceType": "Observation",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "1222590007",
+                            "display": "American Joint Committee on Cancer pathological N category allowable value (qualifier value)"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "urn:uuid:556cd919-5615-5b9b-bc94-e1a740081aa3"
+                },
+                "valueCodeableConcept": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "1229947003",
+                            "display": "pN0"
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "fullUrl": "urn:uuid:4442d50a-1569-5a90-be62-135640b96eb3",
+            "resource": {
+                "resourceType": "Observation",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "1222591006",
+                            "display": "American Joint Committee on Cancer pathological M category allowable value (qualifier value)"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "urn:uuid:556cd919-5615-5b9b-bc94-e1a740081aa3"
+                },
+                "valueCodeableConcept": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "1229916009",
+                            "display": "pM1"
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "fullUrl": "urn:uuid:718144ac-d8d1-5252-be13-261ff002d5cf",
+            "resource": {
+                "resourceType": "Observation",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "258244004",
+                            "display": "Tumor histopathological grade status values (tumor staging)"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "urn:uuid:556cd919-5615-5b9b-bc94-e1a740081aa3"
+                },
+                "valueCodeableConcept": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "1228848004",
+                            "display": "American Joint Committee on Cancer grade G1 (qualifier value)"
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "fullUrl": "urn:uuid:63d26e5f-1ed2-55d8-b351-7309486b6e01",
+            "resource": {
+                "resourceType": "Observation",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "LP428220-0",
+                            "display": "Lymphovascular invasion"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "urn:uuid:556cd919-5615-5b9b-bc94-e1a740081aa3"
+                },
+                "valueCodeableConcept": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "2667000",
+                            "display": "Absent (qualifier value)"
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "fullUrl": "urn:uuid:7d223f85-276c-5031-b0a5-9f6765b09376",
+            "resource": {
+                "resourceType": "Observation",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "92837-4",
+                            "display": "Perineural invasion [Presence] in Cancer specimen"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "urn:uuid:556cd919-5615-5b9b-bc94-e1a740081aa3"
+                },
+                "valueCodeableConcept": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "2667000",
+                            "display": "Absent (qualifier value)"
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "fullUrl": "urn:uuid:cb57e0ae-bde4-5a1b-a30c-aad8ce62c090",
+            "resource": {
+                "resourceType": "Observation",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "84889-5",
+                            "display": "Extramural vein invasion [Presence] in Colorectal cancer specimen by Light microscopy"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "urn:uuid:556cd919-5615-5b9b-bc94-e1a740081aa3"
+                },
+                "valueCodeableConcept": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "52101004",
+                            "display": "Present (qualifier value)"
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "fullUrl": "urn:uuid:8d1af8df-74fd-5e4d-8760-f118280023d9",
+            "resource": {
+                "resourceType": "Observation",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "21894-1",
+                            "display": "Regional lymph nodes examined [#] Specimen"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "urn:uuid:556cd919-5615-5b9b-bc94-e1a740081aa3"
+                },
+                "valueQuantity": {
+                    "value": 5,
+                    "unit": "Unit",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "U"
+                }
+            }
+        },
+        {
+            "fullUrl": "urn:uuid:db9992bc-d287-53a7-8877-f193fb8ee44e",
+            "resource": {
+                "resourceType": "Observation",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "443527007",
+                            "display": "Number of lymph nodes containing metastatic neoplasm in excised specimen (observable entity)"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "urn:uuid:556cd919-5615-5b9b-bc94-e1a740081aa3"
+                },
+                "valueQuantity": {
+                    "value": 7,
+                    "unit": "Unit",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "U"
+                }
+            }
+        },
+        {
+            "fullUrl": "urn:uuid:454c9005-1bcf-5716-a1a6-ce719dae7bbc",
+            "resource": {
+                "resourceType": "Observation",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "630001000004109",
+                            "display": "Presence of metastatic discontinuous spread of malignant neoplasm of colon to pericolic tissue (observable entity)"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "urn:uuid:556cd919-5615-5b9b-bc94-e1a740081aa3"
+                },
+                "valueCodeableConcept": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "261665006",
+                            "display": "Unknown (qualifier value)"
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "fullUrl": "urn:uuid:d95611ce-44b6-562a-8645-06ff7a4fe883",
+            "resource": {
+                "resourceType": "Observation",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://ncithesaurus-stage.nci.nih.gov",
+                            "code": "C155939",
+                            "display": "Modified Ryan Scheme for Tumor Regression"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "urn:uuid:556cd919-5615-5b9b-bc94-e1a740081aa3"
+                },
+                "valueCodeableConcept": {
+                    "coding": [
+                        {
+                            "system": "http://ncithesaurus-stage.nci.nih.gov",
+                            "code": "C155941",
+                            "display": "Tumor Regression Score 0"
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "fullUrl": "urn:uuid:508baa06-d959-5434-8280-682b0154a2b2",
+            "resource": {
+                "resourceType": "Procedure",
+                "status": "completed",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "108290001",
+                            "display": "Radiation oncology AND/OR radiotherapy (procedure)"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "urn:uuid:556cd919-5615-5b9b-bc94-e1a740081aa3"
+                }
+            }
+        },
+        {
+            "fullUrl": "urn:uuid:24bc7939-5238-5735-bca0-142737e560c4",
+            "resource": {
+                "resourceType": "Procedure",
+                "status": "not-done",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "387713003",
+                            "display": "Surgical procedure (procedure)"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "urn:uuid:556cd919-5615-5b9b-bc94-e1a740081aa3"
+                }
+            }
+        },
+        {
+            "fullUrl": "urn:uuid:2b085c03-1508-5e4d-8f36-194bd891242c",
+            "resource": {
+                "resourceType": "Procedure",
+                "status": "completed",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "400001000004103",
+                            "display": "Neoadjuvant antineoplastic therapy (procedure)"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "urn:uuid:556cd919-5615-5b9b-bc94-e1a740081aa3"
+                }
+            }
+        },
+        {
+            "fullUrl": "urn:uuid:4de2cda7-adf3-595e-b018-2e20717694c0",
+            "resource": {
+                "resourceType": "MedicationAdministration",
+                "status": "unknown",
+                "medicationCodeableConcept": {
+                    "coding": [
+                        {
+                            "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                            "code": "4492",
+                            "display": "Fluorouracil"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "urn:uuid:556cd919-5615-5b9b-bc94-e1a740081aa3"
+                },
+                "effectivePeriod": {
+                    "start": "1970-01-01T00:00:00+00:00",
+                    "end": "1971-05-06T00:00:00+00:00"
+                },
+                "note": [
+                    {
+                        "text": "The effectivePeriod variable has anonymized dates. The duration is the difference in time between both dates. If the effectivePeriod is the same at the start and end, no duration was provided"
+                    }
+                ],
+                "dosage": {
+                    "dose": {
+                        "value": 89,
+                        "unit": "milligram per square meter",
+                        "system": "http://unitsofmeasure.org",
+                        "code": "mg/m2"
+                    },
+                    "rateQuantity": {
+                        "value": 5,
+                        "unit": "Chemotherapy cycle",
+                        "system": "http://snomed.info/sct",
+                        "code": "399042005"
+                    }
+                }
+            }
+        },
+        {
+            "fullUrl": "urn:uuid:f0f2a00b-8f6b-500d-a1fb-ca27ed7159c2",
+            "resource": {
+                "resourceType": "MedicationAdministration",
+                "status": "unknown",
+                "medicationCodeableConcept": {
+                    "coding": [
+                        {
+                            "system": "http://ncithesaurus-stage.nci.nih.gov",
+                            "code": "C11764",
+                            "display": "FOLFIRINOX"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "urn:uuid:556cd919-5615-5b9b-bc94-e1a740081aa3"
+                },
+                "effectivePeriod": {
+                    "start": "1970-01-01T00:00:00+00:00",
+                    "end": "1970-01-01T00:00:00+00:00"
+                },
+                "note": [
+                    {
+                        "text": "The effectivePeriod variable has anonymized dates. The duration is the difference in time between both dates. If the effectivePeriod is the same at the start and end, no duration was provided"
+                    }
+                ],
+                "dosage": {
+                    "rateQuantity": {
+                        "value": 9,
+                        "unit": "Chemotherapy cycle",
+                        "system": "http://snomed.info/sct",
+                        "code": "399042005"
+                    }
+                }
+            }
+        },
+        {
+            "fullUrl": "urn:uuid:54fadc66-5bfd-577b-833a-9c160991c2e5",
+            "resource": {
+                "resourceType": "MedicationAdministration",
+                "status": "unknown",
+                "medicationCodeableConcept": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "1220561009",
+                            "display": "Not recorded (qualifier value)"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "urn:uuid:556cd919-5615-5b9b-bc94-e1a740081aa3"
+                },
+                "effectivePeriod": {
+                    "start": "1970-01-01T00:00:00+00:00",
+                    "end": "1970-01-01T00:00:00+00:00"
+                },
+                "note": [
+                    {
+                        "text": "The effectivePeriod variable has anonymized dates. The duration is the difference in time between both dates. If the effectivePeriod is the same at the start and end, no duration was provided"
+                    }
+                ]
+            }
+        },
+        {
+            "fullUrl": "urn:uuid:2e0c498d-8b24-5807-bf94-4fc3cfee9e59",
+            "resource": {
+                "resourceType": "MedicationAdministration",
+                "status": "unknown",
+                "medicationCodeableConcept": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "1220561009",
+                            "display": "Not recorded (qualifier value)"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "urn:uuid:556cd919-5615-5b9b-bc94-e1a740081aa3"
+                },
+                "effectivePeriod": {
+                    "start": "1970-01-01T00:00:00+00:00",
+                    "end": "1970-01-01T00:00:00+00:00"
+                },
+                "note": [
+                    {
+                        "text": "The effectivePeriod variable has anonymized dates. The duration is the difference in time between both dates. If the effectivePeriod is the same at the start and end, no duration was provided"
+                    }
+                ]
+            }
+        },
+        {
+            "fullUrl": "urn:uuid:0b329b75-1495-5c12-9554-7f34fa724748",
+            "resource": {
+                "resourceType": "MedicationAdministration",
+                "status": "unknown",
+                "medicationCodeableConcept": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "1220561009",
+                            "display": "Not recorded (qualifier value)"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "urn:uuid:556cd919-5615-5b9b-bc94-e1a740081aa3"
+                },
+                "effectivePeriod": {
+                    "start": "1970-01-01T00:00:00+00:00",
+                    "end": "1970-01-01T00:00:00+00:00"
+                },
+                "note": [
+                    {
+                        "text": "The effectivePeriod variable has anonymized dates. The duration is the difference in time between both dates. If the effectivePeriod is the same at the start and end, no duration was provided"
+                    }
+                ]
+            }
+        },
+        {
+            "fullUrl": "urn:uuid:00ef6bf5-3a38-515c-a6ce-e655969a1fa6",
+            "resource": {
+                "resourceType": "Observation",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "307474000:398201009=400001000004103,397898000=387713003",
+                            "display": "Intervals of weeks and months where Start time = Neoadjuvant antineoplastic therapy, and Stop time = Surgical procedure"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "urn:uuid:556cd919-5615-5b9b-bc94-e1a740081aa3"
+                },
+                "valueCodeableConcept": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "1220561009",
+                            "display": "Not recorded (qualifier value)"
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

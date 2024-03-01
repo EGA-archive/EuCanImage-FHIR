@@ -1,0 +1,774 @@
+{
+    "resourceType": "Bundle",
+    "id": "UC3-bundle-nan-3",
+    "type": "collection",
+    "entry": [
+        {
+            "fullUrl": "urn:uuid:599eecce-2621-5b30-bf97-962409c60415",
+            "resource": {
+                "resourceType": "Patient",
+                "identifier": [
+                    {
+                        "use": "secondary",
+                        "value": "UC3_3"
+                    }
+                ]
+            }
+        },
+        {
+            "fullUrl": "urn:uuid:eaf544fd-cc53-5ead-a1c9-2e4927514591",
+            "resource": {
+                "resourceType": "Observation",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "76689-9",
+                            "display": "Sex assigned at birth"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "urn:uuid:599eecce-2621-5b30-bf97-962409c60415"
+                },
+                "valueCodeableConcept": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "1220561009",
+                            "display": "Not recorded (qualifier value)"
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "fullUrl": "urn:uuid:f5e36a22-4925-5cda-9ef0-4d80106fd8df",
+            "resource": {
+                "resourceType": "Condition",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "94381002:260716003=93761005",
+                            "display": "Secondary malignant neoplasm of liver where Site of primary tumour = Primary malignant neoplasm of colon"
+                        }
+                    ]
+                },
+                "bodySite": [
+                    {
+                        "coding": [
+                            {
+                                "system": "http://snomed.info/sct",
+                                "code": "10200004",
+                                "display": "Liver structure (body structure)"
+                            }
+                        ]
+                    }
+                ],
+                "subject": {
+                    "reference": "urn:uuid:599eecce-2621-5b30-bf97-962409c60415"
+                },
+                "onsetAge": {
+                    "value": 76,
+                    "unit": "years",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "a"
+                },
+                "evidence": [
+                    {
+                        "code": [
+                            {
+                                "coding": [
+                                    {
+                                        "system": "http://snomed.info/sct",
+                                        "code": "1220561009",
+                                        "display": "Not recorded (qualifier value)"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "fullUrl": "urn:uuid:06fe8337-3fc2-5993-8a35-d439d135dfd8",
+            "resource": {
+                "resourceType": "Condition",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "94381002:260716003=93761005",
+                            "display": "Secondary malignant neoplasm of liver where Site of primary tumour = Primary malignant neoplasm of colon"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "urn:uuid:599eecce-2621-5b30-bf97-962409c60415"
+                },
+                "note": [
+                    {
+                        "text": "Histological type of liver lesion"
+                    }
+                ]
+            }
+        },
+        {
+            "fullUrl": "urn:uuid:a604b992-d960-5d65-b521-e280cc78a93f",
+            "resource": {
+                "resourceType": "Observation",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "398192003",
+                            "display": "Co-morbid conditions (finding)"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "urn:uuid:599eecce-2621-5b30-bf97-962409c60415"
+                },
+                "valueCodeableConcept": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "261665006",
+                            "display": "Unknown"
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "fullUrl": "urn:uuid:b8763107-3198-50d0-b0ac-3af52c3b31b9",
+            "resource": {
+                "resourceType": "Observation",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "448997008",
+                            "display": "Cystadenoma of liver (disorder)"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "urn:uuid:599eecce-2621-5b30-bf97-962409c60415"
+                },
+                "valueCodeableConcept": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "261665006",
+                            "display": "Unknown"
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "fullUrl": "urn:uuid:6ae2fac0-3a86-5e1f-a511-db8c9fa9c915",
+            "resource": {
+                "resourceType": "Observation",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "445137006",
+                            "display": "Intraabdominal bile collection"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "urn:uuid:599eecce-2621-5b30-bf97-962409c60415"
+                },
+                "valueCodeableConcept": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "261665006",
+                            "display": "Unknown"
+                        }
+                    ]
+                },
+                "note": [
+                    {
+                        "text": "Biloma"
+                    }
+                ]
+            }
+        },
+        {
+            "fullUrl": "urn:uuid:a1d8aeb9-dc08-572e-b2b0-0ee22aa5fb6f",
+            "resource": {
+                "resourceType": "Observation",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "70179006",
+                            "display": "Cholangiocarcinoma (morphologic abnormality)"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "urn:uuid:599eecce-2621-5b30-bf97-962409c60415"
+                },
+                "valueCodeableConcept": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "1220561009",
+                            "display": "Not recorded (qualifier value)"
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "fullUrl": "urn:uuid:d928dd5e-4a97-5223-86c3-280f4c705642",
+            "resource": {
+                "resourceType": "Observation",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "448149008",
+                            "display": "Dysplastic nodule (morphologic abnormality)"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "urn:uuid:599eecce-2621-5b30-bf97-962409c60415"
+                },
+                "valueCodeableConcept": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "261665006",
+                            "display": "Unknown"
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "fullUrl": "urn:uuid:e961edcb-73c9-5a1e-a158-b3889d2e4314",
+            "resource": {
+                "resourceType": "Observation",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "253018005",
+                            "display": "Fibrolamellar hepatocellular carcinoma (disorder)"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "urn:uuid:599eecce-2621-5b30-bf97-962409c60415"
+                },
+                "valueCodeableConcept": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "261665006",
+                            "display": "Unknown"
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "fullUrl": "urn:uuid:22952286-c3f9-5de2-b88e-06d5d9c7246c",
+            "resource": {
+                "resourceType": "Observation",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "197321007:116676008=860692001",
+                            "display": "Steatosis of liver where Associated morphology = Focal damage"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "urn:uuid:599eecce-2621-5b30-bf97-962409c60415"
+                },
+                "valueCodeableConcept": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "261665006",
+                            "display": "Unknown"
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "fullUrl": "urn:uuid:357fdcfa-8d5c-58a3-839c-63781267f6d0",
+            "resource": {
+                "resourceType": "Observation",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "400210000",
+                            "display": "Hemangioma (disorder)"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "urn:uuid:599eecce-2621-5b30-bf97-962409c60415"
+                },
+                "valueCodeableConcept": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "261665006",
+                            "display": "Unknown"
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "fullUrl": "urn:uuid:df5cf41e-09c0-5ef8-aafc-70d073a14414",
+            "resource": {
+                "resourceType": "Observation",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "27916005",
+                            "display": "Abscess of liver (disorder)"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "urn:uuid:599eecce-2621-5b30-bf97-962409c60415"
+                },
+                "valueCodeableConcept": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "261665006",
+                            "display": "Unknown"
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "fullUrl": "urn:uuid:bc2030db-32ad-595b-b5fe-498a7b73628a",
+            "resource": {
+                "resourceType": "Observation",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "424263008",
+                            "display": "Adenoma of liver (disorder)"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "urn:uuid:599eecce-2621-5b30-bf97-962409c60415"
+                },
+                "valueCodeableConcept": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "261665006",
+                            "display": "Unknown"
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "fullUrl": "urn:uuid:3115a017-a468-57e0-a6ac-464f6037d901",
+            "resource": {
+                "resourceType": "Observation",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "109844006",
+                            "display": "Angiosarcoma of liver (disorder)"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "urn:uuid:599eecce-2621-5b30-bf97-962409c60415"
+                },
+                "valueCodeableConcept": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "261665006",
+                            "display": "Unknown"
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "fullUrl": "urn:uuid:3f2f2b14-6079-5f74-8d9a-0ba00f310684",
+            "resource": {
+                "resourceType": "Observation",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "26103000",
+                            "display": "Echinococcosis of liver (disorder)"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "urn:uuid:599eecce-2621-5b30-bf97-962409c60415"
+                },
+                "valueCodeableConcept": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "261665006",
+                            "display": "Unknown"
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "fullUrl": "urn:uuid:edafbd94-c5f6-5c8c-82a0-66f4905d9589",
+            "resource": {
+                "resourceType": "Observation",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "109841003",
+                            "display": "Liver cell carcinoma (disorder)"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "urn:uuid:599eecce-2621-5b30-bf97-962409c60415"
+                },
+                "valueCodeableConcept": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "1220561009",
+                            "display": "Not recorded (qualifier value)"
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "fullUrl": "urn:uuid:c8f23181-523d-517d-8be6-e6efb3c3c6aa",
+            "resource": {
+                "resourceType": "Observation",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "19943007",
+                            "display": "Cirrhosis of liver (disorder)"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "urn:uuid:599eecce-2621-5b30-bf97-962409c60415"
+                },
+                "valueCodeableConcept": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "261665006",
+                            "display": "Unknown"
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "fullUrl": "urn:uuid:b3661740-a53f-5359-9881-8a127bd205e2",
+            "resource": {
+                "resourceType": "Observation",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "1153383006",
+                            "display": "Malignant lymphoma of liver (disorder)"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "urn:uuid:599eecce-2621-5b30-bf97-962409c60415"
+                },
+                "valueCodeableConcept": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "261665006",
+                            "display": "Unknown"
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "fullUrl": "urn:uuid:4544ddb9-07bd-5ce4-8ccd-e30a38304ab3",
+            "resource": {
+                "resourceType": "Observation",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "85057007",
+                            "display": "Cyst of liver (disorder)"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "urn:uuid:599eecce-2621-5b30-bf97-962409c60415"
+                },
+                "valueCodeableConcept": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "261665006",
+                            "display": "Unknown"
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "fullUrl": "urn:uuid:0dd9631e-468b-5f2e-a2a4-e145ecf05cb5",
+            "resource": {
+                "resourceType": "Observation",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "398192003",
+                            "display": "Co-morbid conditions"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "urn:uuid:599eecce-2621-5b30-bf97-962409c60415"
+                },
+                "valueCodeableConcept": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "261665006",
+                            "display": "Unknown"
+                        }
+                    ]
+                },
+                "note": [
+                    {
+                        "text": "Presence/Absence of Transient hepatic attenuation differences (THAD)"
+                    }
+                ]
+            }
+        },
+        {
+            "fullUrl": "urn:uuid:bcf14d94-ca79-55b6-b769-1d4afdf0a725",
+            "resource": {
+                "resourceType": "Observation",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "1222589003",
+                            "display": "American Joint Committee on Cancer pathological T category allowable value (qualifier value)"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "urn:uuid:599eecce-2621-5b30-bf97-962409c60415"
+                },
+                "valueCodeableConcept": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "1220561009",
+                            "display": "Not recorded (qualifier value)"
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "fullUrl": "urn:uuid:641dd49b-92f3-508e-80c1-5b6f7e4a7d43",
+            "resource": {
+                "resourceType": "Observation",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "1222585009",
+                            "display": "American Joint Committee on Cancer clinical T category allowable value (qualifier value)"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "urn:uuid:599eecce-2621-5b30-bf97-962409c60415"
+                },
+                "valueCodeableConcept": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "1220561009",
+                            "display": "Not recorded (qualifier value)"
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "fullUrl": "urn:uuid:a37f08a3-a5c9-56bc-9832-1c175709df49",
+            "resource": {
+                "resourceType": "Observation",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "1222590007",
+                            "display": "American Joint Committee on Cancer pathological N category allowable value (qualifier value)"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "urn:uuid:599eecce-2621-5b30-bf97-962409c60415"
+                },
+                "valueCodeableConcept": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "1220561009",
+                            "display": "Not recorded (qualifier value)"
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "fullUrl": "urn:uuid:2a9490bf-30a1-5b18-89c8-5d66c9e3adf9",
+            "resource": {
+                "resourceType": "Observation",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "1222588006",
+                            "display": "American Joint Committee on Cancer clinical N category allowable value (qualifier value)"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "urn:uuid:599eecce-2621-5b30-bf97-962409c60415"
+                },
+                "valueCodeableConcept": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "1220561009",
+                            "display": "Not recorded (qualifier value)"
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "fullUrl": "urn:uuid:b7c44ceb-8892-5fe7-9da6-331e1d4769be",
+            "resource": {
+                "resourceType": "Observation",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "1222591006",
+                            "display": "American Joint Committee on Cancer pathological M category allowable value (qualifier value)"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "urn:uuid:599eecce-2621-5b30-bf97-962409c60415"
+                },
+                "valueCodeableConcept": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "1220561009",
+                            "display": "Not recorded (qualifier value)"
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "fullUrl": "urn:uuid:5b4b6a4a-3586-579f-b68e-dff4e558fcc2",
+            "resource": {
+                "resourceType": "Observation",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "1222587001",
+                            "display": "American Joint Committee on Cancer clinical M category allowable value (qualifier value)"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "urn:uuid:599eecce-2621-5b30-bf97-962409c60415"
+                },
+                "valueCodeableConcept": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "1220561009",
+                            "display": "Not recorded (qualifier value)"
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

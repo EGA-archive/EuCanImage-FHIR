@@ -1,0 +1,1624 @@
+{
+    "resourceType": "Bundle",
+    "id": "UC7-bundle-test-2",
+    "type": "collection",
+    "entry": [
+        {
+            "fullUrl": "urn:uuid:32dbfdd2-4de6-5408-9418-cd7498533faa",
+            "resource": {
+                "resourceType": "Patient",
+                "identifier": [
+                    {
+                        "use": "secondary",
+                        "value": "UC7_2"
+                    }
+                ]
+            }
+        },
+        {
+            "fullUrl": "urn:uuid:d4ccd9db-7019-516c-b1b6-2a2f6d411b9c",
+            "resource": {
+                "resourceType": "Observation",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "76689-9",
+                            "display": "Sex assigned at birth"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "urn:uuid:32dbfdd2-4de6-5408-9418-cd7498533faa"
+                },
+                "valueCodeableConcept": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "1220561009",
+                            "display": "Not recorded (qualifier value)"
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "fullUrl": "urn:uuid:9e9971d9-73fb-5ae1-b037-c837e9c750b7",
+            "resource": {
+                "resourceType": "Condition",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "93796005",
+                            "display": "Primary malignant neoplasm of female breast (disorder)"
+                        }
+                    ]
+                },
+                "bodySite": [
+                    {
+                        "coding": [
+                            {
+                                "system": "http://snomed.info/sct",
+                                "code": "76752008",
+                                "display": "Breast structure (body structure)"
+                            }
+                        ]
+                    }
+                ],
+                "subject": {
+                    "reference": "urn:uuid:32dbfdd2-4de6-5408-9418-cd7498533faa"
+                }
+            }
+        },
+        {
+            "fullUrl": "urn:uuid:eed0dea0-6203-5277-aca7-a54985753c6d",
+            "resource": {
+                "resourceType": "Observation",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "372064008+260837004",
+                            "display": "Malignant neoplasm of female breast, and Subtype"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "urn:uuid:32dbfdd2-4de6-5408-9418-cd7498533faa"
+                },
+                "valueCodeableConcept": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "1220561009",
+                            "display": "Not recorded (qualifier value)"
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "fullUrl": "urn:uuid:7270da9f-fb07-50d5-a798-86190deedb22",
+            "resource": {
+                "resourceType": "Observation",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "372064008+260837004",
+                            "display": "Malignant neoplasm of female breast, and Subtype"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "urn:uuid:32dbfdd2-4de6-5408-9418-cd7498533faa"
+                },
+                "valueCodeableConcept": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "1220561009",
+                            "display": "Not recorded (qualifier value)"
+                        }
+                    ]
+                },
+                "method": {
+                    "coding": [
+                        {
+                            "system": "http://ncithesaurus-stage.nci.nih.gov",
+                            "code": "C120494",
+                            "display": "PAM50"
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "fullUrl": "urn:uuid:a21a65d7-292b-51fe-831f-f08d05b301d1",
+            "resource": {
+                "resourceType": "Condition",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "1220561009",
+                            "display": "Not recorded (qualifier value)"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "urn:uuid:32dbfdd2-4de6-5408-9418-cd7498533faa"
+                },
+                "note": [
+                    {
+                        "text": "Histopathological type"
+                    }
+                ]
+            }
+        },
+        {
+            "fullUrl": "urn:uuid:dd3fcc63-042e-5bd5-bf75-1f96feb0c0d2",
+            "resource": {
+                "resourceType": "Condition",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "1220561009",
+                            "display": "Not recorded (qualifier value)"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "urn:uuid:32dbfdd2-4de6-5408-9418-cd7498533faa"
+                },
+                "note": [
+                    {
+                        "text": "Additional histopathological type"
+                    }
+                ]
+            }
+        },
+        {
+            "fullUrl": "urn:uuid:1ee179a6-69f7-5a1d-857e-23da1f462d1f",
+            "resource": {
+                "resourceType": "Condition",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "1220561009",
+                            "display": "Not recorded (qualifier value)"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "urn:uuid:32dbfdd2-4de6-5408-9418-cd7498533faa"
+                },
+                "note": [
+                    {
+                        "text": "Second additional Histopathological type"
+                    }
+                ]
+            }
+        },
+        {
+            "fullUrl": "urn:uuid:4c6c2922-3103-5d23-b116-a2b1ee684287",
+            "resource": {
+                "resourceType": "Observation",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "445150007",
+                            "display": "Surviving free of recurrence of neoplastic disease (finding)"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "urn:uuid:32dbfdd2-4de6-5408-9418-cd7498533faa"
+                },
+                "valueCodeableConcept": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "1220561009",
+                            "display": "Not recorded (qualifier value)"
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "fullUrl": "urn:uuid:32d9b544-e70f-57c1-a9de-a4b0ce55bfe8",
+            "resource": {
+                "resourceType": "Observation",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "445320007",
+                            "display": "Survival time (observable entity)"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "urn:uuid:32dbfdd2-4de6-5408-9418-cd7498533faa"
+                },
+                "valueCodeableConcept": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "1220561009",
+                            "display": "Not recorded (qualifier value)"
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "fullUrl": "urn:uuid:4f0b1b69-0b97-5d89-b200-f00353b123a8",
+            "resource": {
+                "resourceType": "Observation",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "161712005",
+                            "display": "Menopause, function (observable entity)"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "urn:uuid:32dbfdd2-4de6-5408-9418-cd7498533faa"
+                },
+                "valueCodeableConcept": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "1220561009",
+                            "display": "Not recorded (qualifier value)"
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "fullUrl": "urn:uuid:1f3c0cee-b231-5d4f-8dd4-9042e1b32a77",
+            "resource": {
+                "resourceType": "Observation",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "161732006",
+                            "display": "Gravida (observable entity)"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "urn:uuid:32dbfdd2-4de6-5408-9418-cd7498533faa"
+                },
+                "valueCodeableConcept": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "1220561009",
+                            "display": "Not recorded (qualifier value)"
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "fullUrl": "urn:uuid:cd263355-a83b-5909-9d66-ef103fee1193",
+            "resource": {
+                "resourceType": "Observation",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "169741004",
+                            "display": "Breast fed (finding)"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "urn:uuid:32dbfdd2-4de6-5408-9418-cd7498533faa"
+                },
+                "valueCodeableConcept": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "1220561009",
+                            "display": "Not recorded (qualifier value)"
+                        }
+                    ]
+                },
+                "note": [
+                    {
+                        "text": "If used in this observation, the effectivePeriod variable has anonymized dates. The duration is the difference in time between both dates."
+                    }
+                ]
+            }
+        },
+        {
+            "fullUrl": "urn:uuid:bc5793b1-a63e-532c-a376-777ff2159eb3",
+            "resource": {
+                "resourceType": "Observation",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "416471007:64572001=372064008",
+                            "display": "Family history of clinical finding where Disease = Malignant neoplasm of female breast"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "urn:uuid:32dbfdd2-4de6-5408-9418-cd7498533faa"
+                },
+                "valueCodeableConcept": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "1220561009",
+                            "display": "Not recorded (qualifier value)"
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "fullUrl": "urn:uuid:9f5531c7-1d4e-5b69-b826-ff8b9378d56b",
+            "resource": {
+                "resourceType": "Observation",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "416471007:64572001=363443007",
+                            "display": "Family history of clinical finding where Disease = Malignant tumour of ovary"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "urn:uuid:32dbfdd2-4de6-5408-9418-cd7498533faa"
+                },
+                "valueCodeableConcept": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "1220561009",
+                            "display": "Not recorded (qualifier value)"
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "fullUrl": "urn:uuid:75406269-1679-5fe5-bb30-97f43a8f9b09",
+            "resource": {
+                "resourceType": "Observation",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "266717002",
+                            "display": "Hormone replacement therapy (procedure)"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "urn:uuid:32dbfdd2-4de6-5408-9418-cd7498533faa"
+                },
+                "valueCodeableConcept": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "1220561009",
+                            "display": "Not recorded (qualifier value)"
+                        }
+                    ]
+                },
+                "note": [
+                    {
+                        "text": "If used in this observation, the effectivePeriod variable has anonymized dates. The duration is the difference in time between both dates."
+                    }
+                ]
+            }
+        },
+        {
+            "fullUrl": "urn:uuid:24b9972e-21db-509f-bf48-6d689e65fd13",
+            "resource": {
+                "resourceType": "Observation",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "1222585009",
+                            "display": "American Joint Committee on Cancer clinical T category allowable value (qualifier value)"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "urn:uuid:32dbfdd2-4de6-5408-9418-cd7498533faa"
+                },
+                "valueCodeableConcept": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "1220561009",
+                            "display": "Not recorded (qualifier value)"
+                        }
+                    ]
+                },
+                "bodySite": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "73056007",
+                            "display": "Right breast structure (body structure)"
+                        }
+                    ]
+                },
+                "method": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "86273004",
+                            "display": "Biopsy (procedure)"
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "fullUrl": "urn:uuid:00951fd2-f4c2-5b19-8154-db8b67e5f9b6",
+            "resource": {
+                "resourceType": "Observation",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "1222588006",
+                            "display": "American Joint Committee on Cancer clinical N category allowable value (qualifier value)"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "urn:uuid:32dbfdd2-4de6-5408-9418-cd7498533faa"
+                },
+                "valueCodeableConcept": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "1220561009",
+                            "display": "Not recorded (qualifier value)"
+                        }
+                    ]
+                },
+                "bodySite": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "73056007",
+                            "display": "Right breast structure (body structure)"
+                        }
+                    ]
+                },
+                "method": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "86273004",
+                            "display": "Biopsy (procedure)"
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "fullUrl": "urn:uuid:ea2f113f-510e-58e6-855c-3cc0b8ea2308",
+            "resource": {
+                "resourceType": "Observation",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "258244004",
+                            "display": "Tumor histopathological grade status values (tumor staging)"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "urn:uuid:32dbfdd2-4de6-5408-9418-cd7498533faa"
+                },
+                "valueCodeableConcept": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "1220561009",
+                            "display": "Not recorded (qualifier value)"
+                        }
+                    ]
+                },
+                "bodySite": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "73056007",
+                            "display": "Right breast structure (body structure)"
+                        }
+                    ]
+                },
+                "method": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "86273004",
+                            "display": "Biopsy (procedure)"
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "fullUrl": "urn:uuid:a02bc8ee-cdd5-53f8-aab7-304369da88bf",
+            "resource": {
+                "resourceType": "Observation",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "444025001",
+                            "display": "Number of lymph nodes examined by microscopy in excised specimen (observable entity)"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "urn:uuid:32dbfdd2-4de6-5408-9418-cd7498533faa"
+                },
+                "valueCodeableConcept": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "1220561009",
+                            "display": "Not recorded (qualifier value)"
+                        }
+                    ]
+                },
+                "bodySite": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "73056007",
+                            "display": "Right breast structure (body structure)"
+                        }
+                    ]
+                },
+                "method": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "86273004",
+                            "display": "Biopsy (procedure)"
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "fullUrl": "urn:uuid:4d287417-61a7-53c6-9c3d-a91b657c6fc1",
+            "resource": {
+                "resourceType": "Observation",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "85329-1",
+                            "display": "Cells.estrogen receptor/100 cells in Breast cancer specimen by Immune stain"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "urn:uuid:32dbfdd2-4de6-5408-9418-cd7498533faa"
+                },
+                "valueCodeableConcept": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "1220561009",
+                            "display": "Not recorded (qualifier value)"
+                        }
+                    ]
+                },
+                "bodySite": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "73056007",
+                            "display": "Right breast structure (body structure)"
+                        }
+                    ]
+                },
+                "method": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "86273004",
+                            "display": "Biopsy (procedure)"
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "fullUrl": "urn:uuid:0c4dfc79-6484-5c56-9e23-067cec5d09ad",
+            "resource": {
+                "resourceType": "Observation",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "85325-9",
+                            "display": "Cells.progesterone receptor/100 cells in Breast cancer specimen by Immune stain"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "urn:uuid:32dbfdd2-4de6-5408-9418-cd7498533faa"
+                },
+                "valueCodeableConcept": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "1220561009",
+                            "display": "Not recorded (qualifier value)"
+                        }
+                    ]
+                },
+                "bodySite": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "73056007",
+                            "display": "Right breast structure (body structure)"
+                        }
+                    ]
+                },
+                "method": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "86273004",
+                            "display": "Biopsy (procedure)"
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "fullUrl": "urn:uuid:650930c6-66ad-5945-af29-5f5e10b60e51",
+            "resource": {
+                "resourceType": "Observation",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "85319-2",
+                            "display": "HER2 [Presence] in Breast cancer specimen by Immune stain"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "urn:uuid:32dbfdd2-4de6-5408-9418-cd7498533faa"
+                },
+                "valueCodeableConcept": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "1220561009",
+                            "display": "Not recorded (qualifier value)"
+                        }
+                    ]
+                },
+                "bodySite": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "73056007",
+                            "display": "Right breast structure (body structure)"
+                        }
+                    ]
+                },
+                "method": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "86273004",
+                            "display": "Biopsy (procedure)"
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "fullUrl": "urn:uuid:03f95dab-2e9c-57d5-a904-c92e30b8db55",
+            "resource": {
+                "resourceType": "Observation",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "85330-9",
+                            "display": "Cells.Ki-67 nuclear Ag/100 cells in Breast cancer specimen by Immune stain"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "urn:uuid:32dbfdd2-4de6-5408-9418-cd7498533faa"
+                },
+                "valueCodeableConcept": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "1220561009",
+                            "display": "Not recorded (qualifier value)"
+                        }
+                    ]
+                },
+                "bodySite": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "73056007",
+                            "display": "Right breast structure (body structure)"
+                        }
+                    ]
+                },
+                "method": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "86273004",
+                            "display": "Biopsy (procedure)"
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "fullUrl": "urn:uuid:48f313c5-0092-53ab-96dc-8d2c4a43a662",
+            "resource": {
+                "resourceType": "Observation",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "85318-4",
+                            "display": "ERBB2 gene duplication [Presence] in Breast cancer specimen by FISH"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "urn:uuid:32dbfdd2-4de6-5408-9418-cd7498533faa"
+                },
+                "valueCodeableConcept": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "1220561009",
+                            "display": "Not recorded (qualifier value)"
+                        }
+                    ]
+                },
+                "bodySite": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "73056007",
+                            "display": "Right breast structure (body structure)"
+                        }
+                    ]
+                },
+                "method": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "86273004",
+                            "display": "Biopsy (procedure)"
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "fullUrl": "urn:uuid:5f0ea74b-ceaa-5eb4-994f-56d90c961ed4",
+            "resource": {
+                "resourceType": "Observation",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "1222595002",
+                            "display": "American Joint Committee on Cancer ypT category allowable value (qualifier value)"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "urn:uuid:32dbfdd2-4de6-5408-9418-cd7498533faa"
+                },
+                "valueCodeableConcept": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "1220561009",
+                            "display": "Not recorded (qualifier value)"
+                        }
+                    ]
+                },
+                "method": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "1255732006",
+                            "display": "Anatomic pathology (qualifier value)"
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "fullUrl": "urn:uuid:d748179a-7fc5-5453-9052-260f4462e858",
+            "resource": {
+                "resourceType": "Observation",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "1222596001",
+                            "display": "American Joint Committee on Cancer ypN category allowable value (qualifier value)"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "urn:uuid:32dbfdd2-4de6-5408-9418-cd7498533faa"
+                },
+                "valueCodeableConcept": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "1220561009",
+                            "display": "Not recorded (qualifier value)"
+                        }
+                    ]
+                },
+                "method": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "1255732006",
+                            "display": "Anatomic pathology (qualifier value)"
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "fullUrl": "urn:uuid:89e19102-7a76-52b9-901f-f0ba1ef17f08",
+            "resource": {
+                "resourceType": "Observation",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "1222591006",
+                            "display": "American Joint Committee on Cancer pathological M category allowable value (qualifier value)"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "urn:uuid:32dbfdd2-4de6-5408-9418-cd7498533faa"
+                },
+                "valueCodeableConcept": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "1220561009",
+                            "display": "Not recorded (qualifier value)"
+                        }
+                    ]
+                },
+                "method": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "1255732006",
+                            "display": "Anatomic pathology (qualifier value)"
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "fullUrl": "urn:uuid:c08cb472-fb35-5205-96e1-2aabf504f867",
+            "resource": {
+                "resourceType": "Observation",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "258244004",
+                            "display": "Tumor histopathological grade status values (tumor staging)"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "urn:uuid:32dbfdd2-4de6-5408-9418-cd7498533faa"
+                },
+                "valueCodeableConcept": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "1220561009",
+                            "display": "Not recorded (qualifier value)"
+                        }
+                    ]
+                },
+                "method": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "1255732006",
+                            "display": "Anatomic pathology (qualifier value)"
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "fullUrl": "urn:uuid:d8cf6499-ae53-5387-b574-6cb20fc12146",
+            "resource": {
+                "resourceType": "Observation",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "371512006",
+                            "display": "Presence of direct invasion by primary malignant neoplasm to lymphatic vessel and/or small blood vessel (observable entity)"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "urn:uuid:32dbfdd2-4de6-5408-9418-cd7498533faa"
+                },
+                "valueCodeableConcept": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "1220561009",
+                            "display": "Not recorded (qualifier value)"
+                        }
+                    ]
+                },
+                "method": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "1255732006",
+                            "display": "Anatomic pathology (qualifier value)"
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "fullUrl": "urn:uuid:3dee27de-eaec-5a94-824a-72a6ab8c0310",
+            "resource": {
+                "resourceType": "Observation",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "443527007",
+                            "display": "Number of lymph nodes containing metastatic neoplasm in excised specimen (observable entity)"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "urn:uuid:32dbfdd2-4de6-5408-9418-cd7498533faa"
+                },
+                "valueCodeableConcept": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "1220561009",
+                            "display": "Not recorded (qualifier value)"
+                        }
+                    ]
+                },
+                "method": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "1255732006",
+                            "display": "Anatomic pathology (qualifier value)"
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "fullUrl": "urn:uuid:03a3c99a-aead-5dcc-bb11-4bc95bc5a087",
+            "resource": {
+                "resourceType": "Observation",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://ncithesaurus-stage.nci.nih.gov",
+                            "code": "C63611",
+                            "display": "Miller and Payne Classification"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "urn:uuid:32dbfdd2-4de6-5408-9418-cd7498533faa"
+                },
+                "valueCodeableConcept": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "1220561009",
+                            "display": "Not recorded (qualifier value)"
+                        }
+                    ]
+                },
+                "method": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "1255732006",
+                            "display": "Anatomic pathology (qualifier value)"
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "fullUrl": "urn:uuid:b4c180de-d5f7-5cb2-9ddd-9296d9fb6a92",
+            "resource": {
+                "resourceType": "Observation",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "444987009",
+                            "display": "Residual cancer burden class (observable entity)"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "urn:uuid:32dbfdd2-4de6-5408-9418-cd7498533faa"
+                },
+                "valueCodeableConcept": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "1220561009",
+                            "display": "Not recorded (qualifier value)"
+                        }
+                    ]
+                },
+                "method": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "1255732006",
+                            "display": "Anatomic pathology (qualifier value)"
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "fullUrl": "urn:uuid:21f94535-ed27-53c1-885a-4549f1b4d8e4",
+            "resource": {
+                "resourceType": "Observation",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "85329-1",
+                            "display": "Cells.estrogen receptor/100 cells in Breast cancer specimen by Immune stain"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "urn:uuid:32dbfdd2-4de6-5408-9418-cd7498533faa"
+                },
+                "valueCodeableConcept": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "1220561009",
+                            "display": "Not recorded (qualifier value)"
+                        }
+                    ]
+                },
+                "method": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "1255732006",
+                            "display": "Anatomic pathology (qualifier value)"
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "fullUrl": "urn:uuid:44785cdf-e13d-5182-8767-6b1fc13d00ec",
+            "resource": {
+                "resourceType": "Observation",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "85325-9",
+                            "display": "Cells.progesterone receptor/100 cells in Breast cancer specimen by Immune stain"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "urn:uuid:32dbfdd2-4de6-5408-9418-cd7498533faa"
+                },
+                "valueCodeableConcept": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "1220561009",
+                            "display": "Not recorded (qualifier value)"
+                        }
+                    ]
+                },
+                "method": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "1255732006",
+                            "display": "Anatomic pathology (qualifier value)"
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "fullUrl": "urn:uuid:39869a07-51b1-52a4-9ff3-fb67ee11eb35",
+            "resource": {
+                "resourceType": "Observation",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "85319-2",
+                            "display": "HER2 [Presence] in Breast cancer specimen by Immune stain"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "urn:uuid:32dbfdd2-4de6-5408-9418-cd7498533faa"
+                },
+                "valueCodeableConcept": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "1220561009",
+                            "display": "Not recorded (qualifier value)"
+                        }
+                    ]
+                },
+                "method": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "1255732006",
+                            "display": "Anatomic pathology (qualifier value)"
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "fullUrl": "urn:uuid:f26fd9fa-e500-56f6-b95f-ff77493fd72e",
+            "resource": {
+                "resourceType": "Observation",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "85330-9",
+                            "display": "Cells.Ki-67 nuclear Ag/100 cells in Breast cancer specimen by Immune stain"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "urn:uuid:32dbfdd2-4de6-5408-9418-cd7498533faa"
+                },
+                "valueCodeableConcept": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "1220561009",
+                            "display": "Not recorded (qualifier value)"
+                        }
+                    ]
+                },
+                "method": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "1255732006",
+                            "display": "Anatomic pathology (qualifier value)"
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "fullUrl": "urn:uuid:33015622-20cf-5607-b98b-0e4ed1f03de8",
+            "resource": {
+                "resourceType": "Observation",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "85318-4",
+                            "display": "ERBB2 gene duplication [Presence] in Breast cancer specimen by FISH"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "urn:uuid:32dbfdd2-4de6-5408-9418-cd7498533faa"
+                },
+                "valueCodeableConcept": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "1220561009",
+                            "display": "Not recorded (qualifier value)"
+                        }
+                    ]
+                },
+                "method": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "1255732006",
+                            "display": "Anatomic pathology (qualifier value)"
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "fullUrl": "urn:uuid:2f8bc4ed-72ff-5878-9f44-74936737cde0",
+            "resource": {
+                "resourceType": "MedicationAdministration",
+                "status": "unknown",
+                "medicationCodeableConcept": {
+                    "coding": [
+                        {
+                            "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                            "code": "40048",
+                            "display": "Carboplatin"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "urn:uuid:32dbfdd2-4de6-5408-9418-cd7498533faa"
+                },
+                "effectivePeriod": {
+                    "start": "1970-01-01T00:00:00+00:00",
+                    "end": "1970-01-01T00:00:00+00:00"
+                },
+                "note": [
+                    {
+                        "text": "The effectivePeriod variable has anonymized dates. The duration is the difference in time between both dates. If the effectivePeriod is the same at the start and end, no duration was provided"
+                    }
+                ]
+            }
+        },
+        {
+            "fullUrl": "urn:uuid:8c3cd00b-9691-5d39-bf9d-b2cc68077614",
+            "resource": {
+                "resourceType": "MedicationAdministration",
+                "status": "unknown",
+                "medicationCodeableConcept": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "1220561009",
+                            "display": "Not recorded (qualifier value)"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "urn:uuid:32dbfdd2-4de6-5408-9418-cd7498533faa"
+                },
+                "effectivePeriod": {
+                    "start": "1970-01-01T00:00:00+00:00",
+                    "end": "1970-01-01T00:00:00+00:00"
+                },
+                "note": [
+                    {
+                        "text": "The effectivePeriod variable has anonymized dates. The duration is the difference in time between both dates. If the effectivePeriod is the same at the start and end, no duration was provided"
+                    }
+                ]
+            }
+        },
+        {
+            "fullUrl": "urn:uuid:7d65298c-1830-56f8-9cd0-12b90133fd9a",
+            "resource": {
+                "resourceType": "MedicationAdministration",
+                "status": "unknown",
+                "medicationCodeableConcept": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "1220561009",
+                            "display": "Not recorded (qualifier value)"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "urn:uuid:32dbfdd2-4de6-5408-9418-cd7498533faa"
+                },
+                "effectivePeriod": {
+                    "start": "1970-01-01T00:00:00+00:00",
+                    "end": "1970-01-01T00:00:00+00:00"
+                },
+                "note": [
+                    {
+                        "text": "The effectivePeriod variable has anonymized dates. The duration is the difference in time between both dates. If the effectivePeriod is the same at the start and end, no duration was provided"
+                    }
+                ]
+            }
+        },
+        {
+            "fullUrl": "urn:uuid:ae34dd74-42dc-5a52-856b-3712867e35ff",
+            "resource": {
+                "resourceType": "MedicationAdministration",
+                "status": "unknown",
+                "medicationCodeableConcept": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "1220561009",
+                            "display": "Not recorded (qualifier value)"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "urn:uuid:32dbfdd2-4de6-5408-9418-cd7498533faa"
+                },
+                "effectivePeriod": {
+                    "start": "1970-01-01T00:00:00+00:00",
+                    "end": "1970-01-01T00:00:00+00:00"
+                },
+                "note": [
+                    {
+                        "text": "The effectivePeriod variable has anonymized dates. The duration is the difference in time between both dates. If the effectivePeriod is the same at the start and end, no duration was provided"
+                    }
+                ]
+            }
+        },
+        {
+            "fullUrl": "urn:uuid:077db379-6e48-59e9-9cca-aa645020d947",
+            "resource": {
+                "resourceType": "MedicationAdministration",
+                "status": "unknown",
+                "medicationCodeableConcept": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "1220561009",
+                            "display": "Not recorded (qualifier value)"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "urn:uuid:32dbfdd2-4de6-5408-9418-cd7498533faa"
+                },
+                "effectivePeriod": {
+                    "start": "1970-01-01T00:00:00+00:00",
+                    "end": "1970-01-01T00:00:00+00:00"
+                },
+                "note": [
+                    {
+                        "text": "The effectivePeriod variable has anonymized dates. The duration is the difference in time between both dates. If the effectivePeriod is the same at the start and end, no duration was provided"
+                    }
+                ]
+            }
+        },
+        {
+            "fullUrl": "urn:uuid:67745359-6c4e-5c5d-8e1b-45e72048f4a6",
+            "resource": {
+                "resourceType": "Observation",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "1237404009",
+                            "display": "Uses hormone method of contraception (finding)"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "urn:uuid:32dbfdd2-4de6-5408-9418-cd7498533faa"
+                },
+                "valueCodeableConcept": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "1220561009",
+                            "display": "Not recorded (qualifier value)"
+                        }
+                    ]
+                },
+                "note": [
+                    {
+                        "text": "If used in this observation, the effectivePeriod variable has anonymized dates. The duration is the difference in time between both dates."
+                    }
+                ]
+            }
+        },
+        {
+            "fullUrl": "urn:uuid:2f0ec47c-e7aa-553f-ba32-ba11f5a43110",
+            "resource": {
+                "resourceType": "Observation",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "405823003",
+                            "display": "BRCA1 mutation carrier detection test (procedure)"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "urn:uuid:32dbfdd2-4de6-5408-9418-cd7498533faa"
+                },
+                "valueCodeableConcept": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "1220561009",
+                            "display": "Not recorded (qualifier value)"
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "fullUrl": "urn:uuid:d529bbaf-4074-5f11-9cd5-f419d38b7a8d",
+            "resource": {
+                "resourceType": "Observation",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "405826006",
+                            "display": "BRCA2 mutation carrier detection test (procedure)"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "urn:uuid:32dbfdd2-4de6-5408-9418-cd7498533faa"
+                },
+                "valueCodeableConcept": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "1220561009",
+                            "display": "Not recorded (qualifier value)"
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "fullUrl": "urn:uuid:4e1e2d3c-13fa-58e0-9b1e-58f12ed7d5d1",
+            "resource": {
+                "resourceType": "Observation",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "100761-6",
+                            "display": "PALB2 gene targeted mutation analysis in Blood or Tissue by Molecular genetics method"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "urn:uuid:32dbfdd2-4de6-5408-9418-cd7498533faa"
+                },
+                "valueCodeableConcept": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "1220561009",
+                            "display": "Not recorded (qualifier value)"
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "fullUrl": "urn:uuid:05062487-9bef-54ab-b1cf-10fcd356a9a9",
+            "resource": {
+                "resourceType": "Observation",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "89038-4",
+                            "display": "CHEK2 gene deletion+duplication and full mutation analysis in Blood or Tissue by Molecular genetics method"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "urn:uuid:32dbfdd2-4de6-5408-9418-cd7498533faa"
+                },
+                "valueCodeableConcept": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "1220561009",
+                            "display": "Not recorded (qualifier value)"
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

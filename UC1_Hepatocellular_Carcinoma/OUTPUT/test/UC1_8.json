@@ -1,0 +1,398 @@
+{
+    "resourceType": "Bundle",
+    "id": "UC1-bundle-test-8",
+    "type": "collection",
+    "entry": [
+        {
+            "fullUrl": "urn:uuid:748dc66a-95ba-5238-9918-56cbb3b13000",
+            "resource": {
+                "resourceType": "Patient",
+                "identifier": [
+                    {
+                        "use": "secondary",
+                        "value": "UC1_8"
+                    }
+                ]
+            }
+        },
+        {
+            "fullUrl": "urn:uuid:4da94dc4-c8c9-5101-a4d1-15436a17ec5b",
+            "resource": {
+                "resourceType": "Observation",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "76689-9",
+                            "display": "Sex assigned at birth"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "urn:uuid:748dc66a-95ba-5238-9918-56cbb3b13000"
+                },
+                "valueCodeableConcept": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "1220561009",
+                            "display": "Not recorded (qualifier value)"
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "fullUrl": "urn:uuid:b19c42f4-6c55-57e8-b48f-052b055f6c1e",
+            "resource": {
+                "resourceType": "Condition",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "95214007",
+                            "display": "Primary malignant neoplasm of liver (disorder)"
+                        }
+                    ]
+                },
+                "bodySite": [
+                    {
+                        "coding": [
+                            {
+                                "system": "http://snomed.info/sct",
+                                "code": "10200004",
+                                "display": "Liver structure (body structure)"
+                            }
+                        ]
+                    }
+                ],
+                "subject": {
+                    "reference": "urn:uuid:748dc66a-95ba-5238-9918-56cbb3b13000"
+                }
+            }
+        },
+        {
+            "fullUrl": "urn:uuid:d186052e-75bf-5f0e-9752-7fa5e675cfdb",
+            "resource": {
+                "resourceType": "Condition",
+                "verificationStatus": {
+                    "coding": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+                            "code": "unconfirmed",
+                            "display": "Unconfirmed"
+                        }
+                    ]
+                },
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "109841003",
+                            "display": "Liver cell carcinoma (disorder)"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "urn:uuid:748dc66a-95ba-5238-9918-56cbb3b13000"
+                },
+                "evidence": [
+                    {
+                        "code": [
+                            {
+                                "coding": [
+                                    {
+                                        "system": "http://snomed.info/sct",
+                                        "code": "1220561009",
+                                        "display": "Not recorded (qualifier value)"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "fullUrl": "urn:uuid:fa0e733c-a9ff-5b43-ac85-3e64f412c696",
+            "resource": {
+                "resourceType": "Observation",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "365863005",
+                            "display": "Finding of Hepatitis B status (finding)"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "urn:uuid:748dc66a-95ba-5238-9918-56cbb3b13000"
+                },
+                "valueCodeableConcept": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "260385009",
+                            "display": "Negative"
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "fullUrl": "urn:uuid:4edb77aa-384b-5f74-a759-2297525175ce",
+            "resource": {
+                "resourceType": "Observation",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "365865003",
+                            "display": "Finding of Hepatitis C status (finding)"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "urn:uuid:748dc66a-95ba-5238-9918-56cbb3b13000"
+                },
+                "valueCodeableConcept": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "260385009",
+                            "display": "Negative"
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "fullUrl": "urn:uuid:bc63ee2a-7c43-588f-84be-04e9c13a07c3",
+            "resource": {
+                "resourceType": "Observation",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "41309000",
+                            "display": "Alcoholic liver damage (disorder)"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "urn:uuid:748dc66a-95ba-5238-9918-56cbb3b13000"
+                },
+                "valueCodeableConcept": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "373066001",
+                            "display": "Yes"
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "fullUrl": "urn:uuid:c425b780-b60d-53b1-94b6-868af957f78f",
+            "resource": {
+                "resourceType": "Observation",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "408335007",
+                            "display": "Autoimmune hepatitis (disorder)"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "urn:uuid:748dc66a-95ba-5238-9918-56cbb3b13000"
+                },
+                "valueCodeableConcept": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "1220561009",
+                            "display": "Not recorded (qualifier value)"
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "fullUrl": "urn:uuid:497010c5-b449-5d6c-94cd-106c347ef3cb",
+            "resource": {
+                "resourceType": "Observation",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "1231824009",
+                            "display": "Non-alcoholic fatty liver disease (disorder)"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "urn:uuid:748dc66a-95ba-5238-9918-56cbb3b13000"
+                },
+                "valueCodeableConcept": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "260415000",
+                            "display": "Not detected"
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "fullUrl": "urn:uuid:966d8c35-3164-53fd-8741-5874d9b73975",
+            "resource": {
+                "resourceType": "Observation",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "1231824009",
+                            "display": "Non-alcoholic fatty liver disease (disorder)"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "urn:uuid:748dc66a-95ba-5238-9918-56cbb3b13000"
+                },
+                "valueCodeableConcept": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "261665006",
+                            "display": "Unknown"
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "fullUrl": "urn:uuid:74647f09-89a9-516c-856b-d906ce85a815",
+            "resource": {
+                "resourceType": "Observation",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "235856003:42752001=74964007",
+                            "display": "Hepatopathy where Due to = Other"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "urn:uuid:748dc66a-95ba-5238-9918-56cbb3b13000"
+                },
+                "valueCodeableConcept": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "373066001",
+                            "display": "Yes"
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "fullUrl": "urn:uuid:a8338579-77c8-5e43-99f7-43b43039a814",
+            "resource": {
+                "resourceType": "Observation",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "76783007",
+                            "display": "Chronic hepatitis (disorder)"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "urn:uuid:748dc66a-95ba-5238-9918-56cbb3b13000"
+                },
+                "valueCodeableConcept": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "373066001",
+                            "display": "Yes"
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "fullUrl": "urn:uuid:200a0720-239a-5da5-960b-2fec9221fb52",
+            "resource": {
+                "resourceType": "Observation",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "19943007",
+                            "display": "Cirrhosis of liver (disorder)"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "urn:uuid:748dc66a-95ba-5238-9918-56cbb3b13000"
+                },
+                "valueCodeableConcept": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "1220561009",
+                            "display": "Not recorded (qualifier value)"
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "fullUrl": "urn:uuid:21f7ac65-e1af-520c-8524-8b445560356c",
+            "resource": {
+                "resourceType": "Observation",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "3191000175106",
+                            "display": "Child-Pugh score (assessment scale)"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "urn:uuid:748dc66a-95ba-5238-9918-56cbb3b13000"
+                },
+                "valueCodeableConcept": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "710065009",
+                            "display": "Child-Pugh score class A (finding)"
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}
