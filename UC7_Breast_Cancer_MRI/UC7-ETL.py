@@ -820,9 +820,9 @@ for index in range(len(data_csv)):
     #hcontrac and hcontrac_dur
     obs(d_index["hcontrac_index"],yesno_dict,hcontrac_code,paturl,bundle,d_index["record_id_index"],"hcontrac",7,effectivetimemonths=d_index["hcontrac_dur_index"],note="If used in this observation, the effectivePeriod variable has anonymized dates. The duration is the difference in time between both dates.")
     #brca1 setup
-    obs(d_index["brca1_index"],posnegun_dict,brca1_code,paturl,bundle,d_index["record_id_index"],"brca1",7)
+    obs(d_index["brca1_index"],brca1_dict,brca1_code,paturl,bundle,d_index["record_id_index"],"brca1",7)
     #brca2 setup
-    obs(d_index["brca2_index"],posnegun_dict,brca2_code,paturl,bundle,d_index["record_id_index"],"brca2",7)
+    obs(d_index["brca2_index"],brca2_dict,brca2_code,paturl,bundle,d_index["record_id_index"],"brca2",7)
     #palb2 setup
     obs(d_index["palb2_index"],posnegun_dict,palb2_code,paturl,bundle,d_index["record_id_index"],"palb2",7)
     #chek2 setup
